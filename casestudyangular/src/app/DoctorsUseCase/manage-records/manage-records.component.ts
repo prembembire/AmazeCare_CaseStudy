@@ -96,7 +96,7 @@ export class ManageRecordsComponent {
     this.srv.updateMedicalRecord().subscribe(
       res=>{
         this.resetForm(form);
-        this.getAllMedicalRecords();
+        // this.getAllMedicalRecords();
         alert("Medical Record Updated");
       },
       err => {
